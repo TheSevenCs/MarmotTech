@@ -38,8 +38,11 @@
 }
 .sidebar-link {
   display: block;
-  padding: 20px;
+  padding: 1vw;
+  transform: translateY(25vh);
   color: white;
+  font-size: 2.8125vw;
+  font-family: Arial;
   text-decoration: none;
   transition: background-color 0.3s;
 }
@@ -48,16 +51,17 @@
 }
 
 .mainsection {
-  width: calc(100vw - 32vw - 6px);
-  height: 2627px;
+  width: calc(100vw - 32vw - 0.2vw);
+  height: 200vh;
   position: absolute; /* This is required for top and left to work */
   top: 0;
-  left: calc(16vw + 3px);
-  background-image: url("../images/Background.png");
+  left: calc(16vw + 0.1vw);
+  background-image: radial-gradient(circle, #2e343e, #171717);
+  background-position: center;
   display: block;
   margin: auto;
   overflow-x: hidden; /* Stops horizontal scrolling */
-  overflow-y: scroll;
+  overflow-y: hidden;
 }
 
 .homebanner {
