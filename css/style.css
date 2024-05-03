@@ -17,6 +17,7 @@
   line-height: 51px;
 }
 
+/* SIDEBAR CLASSES */
 .sidebar {
   width: 16vw;
   height: 100vh;
@@ -47,17 +48,31 @@
 }
 
 .mainsection {
-  width: calc(100vw - 32vw);
-  height: 2627px; /* Assuming you want a fixed pixel height */
+  width: calc(100vw - 32vw - 6px);
+  height: 2627px;
   position: absolute; /* This is required for top and left to work */
-  top: 0; /* Aligns the top of the section with the top of the viewport */
-  left: 16vw; /* Assuming you want this section to start right after the sidebar */
-  background: #ff0000;
+  top: 0;
+  left: calc(16vw + 3px);
+  background-image: url("../images/Background.png");
+  display: block;
+  margin: auto;
+  overflow-x: hidden; /* Stops horizontal scrolling */
+  overflow-y: scroll;
+}
+
+.homebanner {
+  width: calc(100vw - 32 vw - 6px);
+  top: 0;
 }
 
 body,
 html {
-  background-image: url("../images/Background.png");
+  /* background-image: url("../images/Background.png"); */
   background-size: cover; /* This makes sure the image covers the entire background */
   background-position: center top 0; /* Corrected background position */
+  background: #ffffff;
+}
+svg {
+  display: block; /* Removes extra space around inline elements */
+  background: #0000ff; /* Optional: Set a background color if needed */
 }
