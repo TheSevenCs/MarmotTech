@@ -50,6 +50,13 @@
   background-color: #333; /* Lighten background on hover */
 }
 
+.home_title {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Futura PT", sans-serif; /* Use Futura PT font */
+  font-weight: bold;
+  color: white;
+}
 .mainsection {
   width: calc(100vw - 32vw - 0.2vw);
   height: 200vh;
@@ -67,8 +74,17 @@
 .homebanner {
   width: calc(100vw - 32 vw - 6px);
   top: 0;
+  z-index: 1;
 }
-
+.bannerbackground {
+  /* position: absolute; */
+  top: 50%; /* Adjust as needed */
+  left: 0;
+  width: 100vw;
+  height: 100px; /* Adjust the height of the line */
+  background-color: white; /* Adjust the color as needed */
+  z-index: 0; /* Ensure the line is above the image */
+}
 body,
 html {
   /* background-image: url("../images/Background.png"); */
