@@ -72,19 +72,19 @@
 }
 
 .homebanner {
-  width: calc(100vw - 32 vw - 6px);
+  width: calc(100vw - 32vw - 0.3vw);
   top: 0;
+  margin: auto;
+}
+.bannerimage {
+  width: 100%;
+  top: 0px;
   z-index: 1;
 }
-.bannerbackground {
-  /* position: absolute; */
-  top: 50%; /* Adjust as needed */
-  left: 0;
-  width: 100vw;
-  height: 100px; /* Adjust the height of the line */
-  background-color: white; /* Adjust the color as needed */
-  z-index: 0; /* Ensure the line is above the image */
+.banner_container {
+  position: relative;
 }
+
 body,
 html {
   /* background-image: url("../images/Background.png"); */
