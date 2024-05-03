@@ -26,7 +26,15 @@
   background: #121212;
   overflow: hidden;
 }
-
+.sidebar2 {
+  width: 16vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 84vw;
+  background: #121212;
+  overflow: hidden;
+}
 .sidebar-link {
   display: block;
   padding: 20px;
@@ -34,9 +42,17 @@
   text-decoration: none;
   transition: background-color 0.3s;
 }
-
 .sidebar-link:hover {
   background-color: #333; /* Lighten background on hover */
+}
+
+.mainsection {
+  width: calc(100vw - 32vw);
+  height: 2627px; /* Assuming you want a fixed pixel height */
+  position: absolute; /* This is required for top and left to work */
+  top: 0; /* Aligns the top of the section with the top of the viewport */
+  left: 16vw; /* Assuming you want this section to start right after the sidebar */
+  background: #ff0000;
 }
 
 body,
