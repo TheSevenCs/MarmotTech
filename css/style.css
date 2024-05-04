@@ -1,11 +1,18 @@
 .title {
   font-family: "Osiris";
-  color: white;
-  font-size: 45px;
-  transform: translateY(vh);
-  text-align: center;
-}
 
+  color: white;
+  font-size: 4.5vw;
+  text-align: center;
+  margin-top: 8vw;
+}
+.hor_line_1 {
+  width: 100%; /* Adjust this value as needed */
+  height: 6px; /* Adjust this value as needed */
+  margin-top: 26.3px;
+  margin-bottom: 56.7px;
+  background-color: white; /* Change the color as needed */
+}
 .AU_MainText {
   font-family: "Arial";
   color: white;
