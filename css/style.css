@@ -1,11 +1,18 @@
 .title {
   font-family: "Osiris";
-  color: white;
-  font-size: 45px;
-  transform: translateY(vh);
-  text-align: center;
-}
 
+  color: white;
+  font-size: 4.5vw;
+  text-align: center;
+  margin-top: 8vw;
+}
+.hor_line_1 {
+  width: 100%; /* Adjust this value as needed */
+  height: 6px; /* Adjust this value as needed */
+  margin-top: 26.3px;
+  margin-bottom: 56.7px;
+  background-color: white; /* Change the color as needed */
+}
 .AU_MainText {
   font-family: "Arial";
   color: white;
@@ -90,6 +97,7 @@
   font-family: Arial;
   text-decoration: none;
   transition: background-color 0.3s;
+  transform: translateX(vw);
 }
 .sidebar-link:hover {
   background-color: #333; /* Lighten background on hover */
@@ -117,26 +125,17 @@
 }
 
 .homebanner {
-  width: calc(100vw - 32 vw - 6px);
+  width: calc(100vw - 32vw - 0.3vw);
   top: 0;
-  z-index: 1;
-}
-.bannerbackground {
-  /* position: absolute; */
-  top: 50%; /* Adjust as needed */
-  left: 0;
-  width: 100vw;
-  height: 100px; /* Adjust the height of the line */
-  background-color: white; /* Adjust the color as needed */
-  z-index: 0; /* Ensure the line is above the image */
-}
-.banner_container {
-  position: relative;
+  margin: auto;
 }
 .bannerimage {
   width: 100%;
   top: 0px;
   z-index: 1;
+}
+.banner_container {
+  position: relative;
 }
 .centerImage {
   justify-content: center;
@@ -149,9 +148,62 @@ html {
   background-position: center top 0; /* Corrected background position */
   background: #ffffff;
 }
-svg {
-  display: block; /* Removes extra space around inline elements */
-  background: #0000ff; /* Optional: Set a background color if needed */
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 5vw; /* Adjust font size relative to viewport width */
+  }
+
+  .AU_MainText {
+    font-size: 3vw; /* Adjust font size relative to viewport width */
+    line-height: 6vw; /* Adjust line height relative to viewport width */
+  }
+
+  .sidebar {
+    width: 16vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #121212;
+    overflow: hidden;
+  }
+
+  .sidebar2 {
+    width: 16vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: auto;
+    background: #121212;
+    overflow: hidden;
+  }
+
+  .sidebar-link {
+    font-size: 4vw; /* Adjust font size relative to viewport width */
+    padding: 3vw; /* Adjust padding relative to viewport width */
+    transform: translateY(
+      10vh
+    ); /* Adjust transformation relative to viewport height */
+  }
+
+  .home_title {
+    font-size: 3vw; /* Adjust font size relative to viewport width */
+  }
+
+  .mainsection {
+    width: 100%; /* Adjust width to fill the viewport */
+    left: 0; /* Position main section at the left */
+    padding: 5vw; /* Adjust padding relative to viewport width */
+  }
+
+  .homebanner {
+    width: 100%; /* Adjust width to fill the viewport */
+    padding: 5vw; /* Adjust padding relative to viewport width */
+  }
+
+  .bannerimage {
+    width: 100%; /* Adjust width to fill the viewport */
+  }
 }
 
 @media only screen and (max-width: 992px) {
