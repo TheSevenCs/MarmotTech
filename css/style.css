@@ -17,6 +17,51 @@
   line-height: 51px;
 }
 
+/* TEXT TYPES */
+.home_title {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Futura PT", sans-serif; /* Use Futura PT font */
+  font-weight: bold;
+  color: white;
+}
+.paragraph {
+  font-family: "Arial";
+  color: white;
+  font-size: 33.3333px;
+  text-align: center;
+  max-width: 1450px;
+  margin: 0 auto;
+  padding: 10px;
+  line-height: 51px;
+}
+.hor_line_1 {
+  width: 100%; /* Adjust this value as needed */
+  height: 3px; /* Adjust this value as needed */
+  margin: 0px;
+  background-color: white; /* Change the color as needed */
+}
+
+/* ABOUT US PROFILES */
+.profileContainer {
+  /* Since containers take up blocks by default, the display layout must be manually set */
+  display: inline-block;
+  width: 33.3%;
+  margin-left: 11.1%;
+}
+.profileText {
+  font-family: "Arial";
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  width: 100%;
+}
+
+/* BENEFITS */
+.benefitsIcon {
+  width: 20%;
+}
+
 /* SIDEBAR CLASSES */
 .sidebar {
   width: 16vw;
@@ -85,6 +130,18 @@
   background-color: white; /* Adjust the color as needed */
   z-index: 0; /* Ensure the line is above the image */
 }
+.banner_container {
+  position: relative;
+}
+.bannerimage {
+  width: 100%;
+  top: 0px;
+  z-index: 1;
+}
+.centerImage {
+  justify-content: center;
+}
+
 body,
 html {
   /* background-image: url("../images/Background.png"); */
@@ -95,4 +152,62 @@ html {
 svg {
   display: block; /* Removes extra space around inline elements */
   background: #0000ff; /* Optional: Set a background color if needed */
+}
+
+@media only screen and (max-width: 992px) {
+  .title {
+    font-size: 5vw; /* Adjust font size relative to viewport width */
+  }
+
+  .AU_MainText {
+    font-size: 3vw; /* Adjust font size relative to viewport width */
+    line-height: 6vw; /* Adjust line height relative to viewport width */
+  }
+
+  .sidebar {
+    width: 16vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #121212;
+    overflow: hidden;
+  }
+
+  .sidebar2 {
+    width: 16vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: auto;
+    background: #121212;
+    overflow: hidden;
+  }
+
+  .sidebar-link {
+    font-size: 4vw; /* Adjust font size relative to viewport width */
+    padding: 3vw; /* Adjust padding relative to viewport width */
+    transform: translateY(
+      10vh
+    ); /* Adjust transformation relative to viewport height */
+  }
+
+  .home_title {
+    font-size: 3vw; /* Adjust font size relative to viewport width */
+  }
+
+  .mainsection {
+    width: 100%; /* Adjust width to fill the viewport */
+    left: 0; /* Position main section at the left */
+    padding: 5vw; /* Adjust padding relative to viewport width */
+  }
+
+  .homebanner {
+    width: 100%; /* Adjust width to fill the viewport */
+    padding: 5vw; /* Adjust padding relative to viewport width */
+  }
+
+  .bannerimage {
+    width: 100%; /* Adjust width to fill the viewport */
+  }
 }
