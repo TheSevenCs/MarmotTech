@@ -1,3 +1,4 @@
+/* TEXT TYPES */
 .title {
   font-family: "Osiris";
 
@@ -6,14 +7,14 @@
   text-align: center;
   margin-top: 8vw;
 }
-.hor_line_1 {
-  width: 100%; /* Adjust this value as needed */
-  height: 6px; /* Adjust this value as needed */
-  margin-top: 26.3px;
-  margin-bottom: 56.7px;
-  background-color: white; /* Change the color as needed */
+.home_title {
+  font-size: 30px;
+  text-align: center;
+  font-family: "Futura PT", sans-serif; /* Use Futura PT font */
+  font-weight: bold;
+  color: white;
 }
-.AU_MainText {
+.paragraph {
   font-family: "Arial";
   color: white;
   font-size: 33.3333px;
@@ -23,16 +24,7 @@
   padding: 10px;
   line-height: 51px;
 }
-
-/* TEXT TYPES */
-.home_title {
-  font-size: 30px;
-  text-align: center;
-  font-family: "Futura PT", sans-serif; /* Use Futura PT font */
-  font-weight: bold;
-  color: white;
-}
-.paragraph {
+.AU_MainText {
   font-family: "Arial";
   color: white;
   font-size: 33.3333px;
@@ -51,10 +43,11 @@
 
 /* ABOUT US PROFILES */
 .profileContainer {
-  /* Since containers take up blocks by default, the display layout must be manually set */
+  /* Since containers take up (horizontal) blocks by default, the display layout must be manually set */
   display: inline-block;
   width: 33.3%;
   margin-left: 11.1%;
+  justify-content: center;
 }
 .profileText {
   font-family: "Arial";
@@ -65,8 +58,21 @@
 }
 
 /* BENEFITS */
-.benefitsIcon {
+.benefitsContainer {
+  /* Since containers take up (horizontal) blocks by default, the display layout must be manually set */
+  display: inline-block;
   width: 20%;
+  justify-content: center;
+  /* left margin must be manually set */
+}
+.benefitsIcon {
+  width: 100%;
+}
+.benefitsVerticalLine {
+  width: 3px;
+  height: 50px;
+  background-color: #ff0000;
+  /* chagne color to 707070 */
 }
 
 /* SIDEBAR CLASSES */
@@ -103,13 +109,6 @@
   background-color: #333; /* Lighten background on hover */
 }
 
-.home_title {
-  font-size: 30px;
-  text-align: center;
-  font-family: "Futura PT", sans-serif; /* Use Futura PT font */
-  font-weight: bold;
-  color: white;
-}
 .mainsection {
   width: calc(100vw - 32vw - 0.2vw);
   height: 200vh;
@@ -148,64 +147,6 @@ html {
   background-position: center top 0; /* Corrected background position */
   background: #ffffff;
 }
-@media only screen and (max-width: 992px) {
-  .title {
-    font-size: 5vw; /* Adjust font size relative to viewport width */
-  }
-
-  .AU_MainText {
-    font-size: 3vw; /* Adjust font size relative to viewport width */
-    line-height: 6vw; /* Adjust line height relative to viewport width */
-  }
-
-  .sidebar {
-    width: 16vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #121212;
-    overflow: hidden;
-  }
-
-  .sidebar2 {
-    width: 16vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: auto;
-    background: #121212;
-    overflow: hidden;
-  }
-
-  .sidebar-link {
-    font-size: 4vw; /* Adjust font size relative to viewport width */
-    padding: 3vw; /* Adjust padding relative to viewport width */
-    transform: translateY(
-      10vh
-    ); /* Adjust transformation relative to viewport height */
-  }
-
-  .home_title {
-    font-size: 3vw; /* Adjust font size relative to viewport width */
-  }
-
-  .mainsection {
-    width: 100%; /* Adjust width to fill the viewport */
-    left: 0; /* Position main section at the left */
-    padding: 5vw; /* Adjust padding relative to viewport width */
-  }
-
-  .homebanner {
-    width: 100%; /* Adjust width to fill the viewport */
-    padding: 5vw; /* Adjust padding relative to viewport width */
-  }
-
-  .bannerimage {
-    width: 100%; /* Adjust width to fill the viewport */
-  }
-}
-
 @media only screen and (max-width: 992px) {
   .title {
     font-size: 5vw; /* Adjust font size relative to viewport width */
