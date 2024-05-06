@@ -1,12 +1,17 @@
 /* TEXT TYPES */
+@font-face {
+  font-family: "Osiris";
+  src: url("../css/osiris.woff2") format("woff2");
+}
+
 .title {
   font-family: "Osiris";
-
   color: white;
-  font-size: 4.5vw;
+  font-size: 95px;
   text-align: center;
   margin-top: 8vw;
 }
+
 .home_title {
   font-size: 30px;
   text-align: center;
@@ -179,13 +184,13 @@
 .sidebar-link {
   display: block;
   padding: 1vw;
-  transform: translateY(25vh);
+  transform: translateY(30vh);
   color: white;
   font-size: 2.8125vw;
   font-family: Arial;
   text-decoration: none;
   transition: background-color 0.3s;
-  transform: translateX(vw);
+  margin-left: 0;
 }
 .sidebar-link:hover {
   background-color: #333; /* Lighten background on hover */
@@ -199,11 +204,11 @@
 }
 
 .mainsection {
-  width: calc(100vw - 32vw - 0.2vw);
+  width: 67.8vw;
   height: 200vh;
   position: absolute; /* This is required for top and left to work */
   top: 0;
-  left: calc(16vw + 0.1vw);
+  left: 16.1vw;
   background-image: radial-gradient(circle, #2e343e, #171717);
   background-position: center;
   display: block;
@@ -216,6 +221,37 @@
   justify-content: center;
 }
 
+.ContactBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 849px;
+}
+.email-box {
+  margin-top: 40px;
+  width: 459px;
+  height: 94px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  background-color: #121212;
+  border: 8px solid white;
+}
+.email-title {
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-size: 39px;
+  margin-top: 100px;
+}
+
+.email-text {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 25px;
+  color: white;
+  font-family: Arial;
+}
 body,
 html {
   /* background-image: url("../images/Background.png"); */
@@ -223,52 +259,39 @@ html {
   background-position: center top 0; /* Corrected background position */
   background: #ffffff;
 }
-@media only screen and (max-width: 992px) {
+@media (min-width: 1200px) {
   .title {
-    font-size: 5vw; /* Adjust font size relative to viewport width */
+    display: hidden;
   }
-
+}
+@media only screen and (max-device-width: 767px) {
+  .title {
+    font-size: 5vw;
+  }
+  .email-box {
+  }
   .AU_MainText {
     font-size: 3vw; /* Adjust font size relative to viewport width */
     line-height: 6vw; /* Adjust line height relative to viewport width */
   }
 
-  .sidebar {
-    width: 16vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background: #121212;
-    overflow: hidden;
-  }
-
-  .sidebar2 {
-    width: 16vw;
-    height: 100vh;
-    position: fixed;
-    top: 0;
-    left: auto;
-    background: #121212;
-    overflow: hidden;
-  }
-
-  .sidebar-link {
-    font-size: 4vw; /* Adjust font size relative to viewport width */
-    padding: 3vw; /* Adjust padding relative to viewport width */
-    transform: translateY(
-      10vh
-    ); /* Adjust transformation relative to viewport height */
-  }
-
   .home_title {
-    font-size: 3vw; /* Adjust font size relative to viewport width */
+    font-size: 4vw; /* Adjust font size relative to viewport width */
   }
 
   .mainsection {
-    width: 100%; /* Adjust width to fill the viewport */
-    left: 0; /* Position main section at the left */
-    padding: 5vw; /* Adjust padding relative to viewport width */
+    width: 67.8vw; /* Adjust width to fill the viewport */
+    left: 16.1vw;
+    right: auto;
+    display: block;
+    margin: auto;
+    position: absolute; /* This is required for top and left to work */
+  }
+  .ContactBanner {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 174.609375px;
   }
 
   .homebanner {
@@ -278,5 +301,15 @@ html {
 
   .bannerimage {
     width: 100%; /* Adjust width to fill the viewport */
+  }
+}
+@media (max-width: 1000px) {
+  .title {
+    font-size: 8.847791378392762vw;
+  }
+}
+@media (max-width: 1200px) {
+  .ContactBanner {
+    width: 67.77541245343268vw;
   }
 }
