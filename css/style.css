@@ -41,6 +41,52 @@
   background-color: white; /* Change the color as needed */
 }
 
+/* HOME */
+.homeBanner {
+  width: 100%;
+  top: 0;
+}
+.homeFrame1Container {
+  width: 94%;
+  margin-left: 3%;
+  position: relative;
+}
+.homeFrame1Text {
+  position: absolute; /* allows for position relative to nearest ancestor */
+
+  top: 7.5%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+
+  text-align: center;
+  color: white; /* Text color */
+  font-size: 33.3333px;
+  font-family: "Arial";
+}
+.homeFrame2Container {
+  width: 75%;
+  padding-top: 71.2%;
+  margin-left: 12.5%;
+  margin-top: 40px;
+  position: relative;
+  display: inline-block;
+}
+.homeFrame2Image {
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+.homeFrame2Icon {
+  height: 40%;
+  position: absolute;
+}
+.homeFrame2Text1 {
+  text-align: left;
+}
+.homeFrame2Text2 {
+  text-align: right;
+}
+
 /* ABOUT US PROFILES */
 .profileContainer {
   /* Since containers take up (horizontal) blocks by default, the display layout must be manually set */
@@ -166,19 +212,6 @@
   overflow-y: hidden;
 }
 
-.homebanner {
-  width: calc(100vw - 32vw - 0.3vw);
-  top: 0;
-  margin: auto;
-}
-.bannerimage {
-  width: 100%;
-  top: 0px;
-  z-index: 1;
-}
-.banner_container {
-  position: relative;
-}
 .centerImage {
   justify-content: center;
 }
