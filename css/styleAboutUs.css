@@ -6,19 +6,6 @@
   margin-top: 30px;
   width: 900px;
 }
-.AUMainSection {
-  width: 67.8vw;
-  height: 2500px;
-  position: absolute; /* This is required for top and left to work */
-  top: 0;
-  left: 16.1vw;
-  background-image: radial-gradient(circle, #2e343e, #171717);
-  background-position: center;
-  display: block;
-  margin: auto;
-  /* overflow-x: hidden; Stops horizontal scrolling */
-  overflow-y: hidden;
-}
 .profileContainer {
   /* display: inline-block; */
   position: absolute;
