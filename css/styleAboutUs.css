@@ -3,7 +3,7 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 5vh;
+  margin-top: 30px;
   width: 900px;
 }
 .AUMainSection {
@@ -45,5 +45,5 @@
   line-height: 51px;
   border: 5px solid #707070;
   width: 895px;
-  margin-top: 833px;
+  margin-top: 600px;
 }
