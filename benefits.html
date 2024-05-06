@@ -1,196 +1,117 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-       "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-  <meta charset="UTF-8">
-  <style>
-    /* Reset CSS for the html and body to remove default margins and paddings */
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%; /* Set the height to 100% of the viewport */
-      width: 100%; /* Set the width to 100% of the viewport */
-      fill: #121212
-      /**overflow: hidden; /* Optional: Prevents scrolling if the content is bigger than the viewport */
-    }
-    /* SVG specific styles */
-    svg {
-      display: block; /* Removes extra space around inline elements */
-      background: #121212; /* Optional: Set a background color if needed */
-    }
-  </style>
-</head>
-<body>
-  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="vw" height="2068" viewBox="0 0 1920 2627">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.524" y1="0.45" x2="0.5" y2="-0.107" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#1d1d1d"/>
-      <stop offset="1" stop-color="#341b0d"/>
-    </linearGradient>
-    <pattern id="pattern" width="1" height="1" viewBox="11.057 9.549 353.614 206.275">
-      <image preserveAspectRatio="none" width="384" height="224" xlink:href="images/MarmotLogo.png"/>
-    </pattern>
-    <linearGradient id="linear-gradient-2" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#2f1b10"/>
-      <stop offset="1" stop-color="#2b1c13"/>
-    </linearGradient>
-    <pattern id="pattern-2" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 349 565">
-      <image width="349" height="565" xlink:href="images/BuildTrust.png"/>
-    </pattern>
-    <pattern id="pattern-3" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 349 565">
-      <image width="349" height="565" xlink:href="images/IncreaseConfidence.png"/>
-    </pattern>
-    <pattern id="pattern-4" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 349 565">
-      <image width="349" height="565" xlink:href="images/ExpandReach.png"/>
-    </pattern>
-    <filter id="Path_8">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="44.5" result="blur"/>
-      <feFlood flood-color="#090707" flood-opacity="0.949" result="color"/>
-      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
-      <feComposite operator="in" in="color"/>
-      <feComposite operator="in" in2="SourceGraphic"/>
-    </filter>
-    <filter id="Path_9">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="44.5" result="blur-2"/>
-      <feFlood flood-color="#090707" flood-opacity="0.949" result="color-2"/>
-      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
-      <feComposite operator="in" in="color-2"/>
-      <feComposite operator="in" in2="SourceGraphic"/>
-    </filter>
-    <filter id="Path_10">
-      <feOffset dy="3" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="44.5" result="blur-3"/>
-      <feFlood flood-color="#090707" flood-opacity="0.949" result="color-3"/>
-      <feComposite operator="out" in="SourceGraphic" in2="blur-3"/>
-      <feComposite operator="in" in="color-3"/>
-      <feComposite operator="in" in2="SourceGraphic"/>
-    </filter>
-    <clipPath id="clip-Benefits">
-      <rect width="1920" height="2627"/>
-    </clipPath>
-  </defs>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarmotTech</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/stylebenefits.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
 
-  <g id="Benefits" clip-path="url(#clip-Benefits)">
-    
-    <rect width="1920" height="2627" fill="#fff"/>
-    <rect id="Rectangle_6" data-name="Rectangle 6" width="1920" height="2626" fill="url(#linear-gradient)"/>
+  <body>
+    <!-- CREATE SIDEBARS -->
+    <div id="sidebar" class="sidebar">
+      <a href="/" class="sidebar-link">Home</a>
+      <a href="/about" class="sidebar-link">About Us</a>
+      <a href="/contact" class="sidebar-link">Contact Us</a>
+      <a href="/benefits" class="sidebar-link">Benefits</a>
+    </div>
+    <div id="sidebar2" class="sidebar2">
+      <img
+        class="sidebarLogo"
+        src="images/MarmotLogo.png"
+        alt="Contact Banner"
+      />
+    </div>
 
-    <!-- HEADER TEXT = FIX ALIGNMENT FOR THESE ==================================-->
-    <text id="Benefits-2" data-name="Benefits" transform="translate(1200 211)" fill="#fff" stroke="#000" stroke-width="3" font-size="105" font-family="Arial-BoldMT, Arial" font-weight="700" text-anchor = "middle">
-      <tspan x="0" y="0">Benefits</tspan>
-    </text>
-    <text id="Discover_the_Benefits_of_Going_Digital" data-name="Discover the Benefits of Going Digital" transform="translate(1200 357)" fill="#fff" font-size="60" font-family="FuturaPT-Book, Futura PT" text-anchor = "middle">
-      <tspan x="0" y="59">Discover the Benefits of Going Digital</tspan>
-    </text>
-    <!--=========================================================================-->
-    
-    <g id="Group_1" data-name="Group 1" transform="translate(1481 23)">
-      <rect id="Image_3" data-name="Image 3" width="384" height="224" transform="translate(27 6)" fill="url(#pattern)"/>
-      <rect id="Rectangle_2" data-name="Rectangle 2" width="33" height="20" transform="translate(13 216)" fill="#2b1b12"/>
-      <path id="Path_6" data-name="Path 6" d="M0,0H33V228H0Z" fill="url(#linear-gradient-2)"/>
-      <path id="Path_4" data-name="Path 4" d="M0,0H403.62V21H0Z" transform="translate(31.38)" fill="#2f1b10"/>
-      <rect id="Rectangle_12" data-name="Rectangle 12" width="33" height="12" transform="translate(398 15)" fill="#2e1b11"/>
-    </g>
+    <!-- MAIN CONTAINER -->
+    <div id="mainsection" class="mainsection" style="height: 1800px">
+      <!-- TITLE -->
+      <div class="title" style="font-size: 50px">
+        Discover the Benefits of Going Digital
+      </div>
 
-    <g id="Side_Bar" data-name="Side Bar">
-      <rect id="Rectangle_9" data-name="Rectangle 9" width="323" height="2626" fill="#121212"/>
-      <a href = "/"><text id="Home" transform="translate(28 155)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Home</tspan></text></a>
-      <a href = "/about"><text id="About_Us" data-name="About Us" transform="translate(29 265)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">About Us</tspan></text></a>
-      <a href = "/contact"><text id="Contact_Us" data-name="Contact Us" transform="translate(28 375)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Contact Us</tspan></text></a>
-      <text id="Benefits-3" data-name="Benefits" transform="translate(29 485)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Benefits</tspan></text>
-    </g>
-    <g id="Selected" transform="translate(19 478)">
-      <g id="Rectangle_11" data-name="Rectangle 11" fill="none" stroke="#bfbfbf" stroke-width="1">
-        <rect width="295" height="84" stroke="none"/>
-        <rect x="0.5" y="0.5" width="294" height="83" fill="none"/>
-      </g>
-      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(262)" fill="#bfbfbf" stroke="#fff" stroke-width="1">
-        <rect width="33" height="84" stroke="none"/>
-        <rect x="0.5" y="0.5" width="32" height="83" fill="none"/>
-      </g>
-    </g>
-    
-    <!-- AI GENERATED ICONS ====================-->
-    <g id="Image_7" data-name="Image 7" transform="translate(523 627)" stroke="#000" stroke-width="8" fill="url(#pattern-2)">
-      <rect width="349" height="565" rx="21" stroke="none"/>
-      <rect x="4" y="4" width="341" height="557" rx="17" fill="none"/>
-    </g>
-    <g id="Image_7-2" data-name="Image 7" transform="translate(995 627)" stroke="#000" stroke-width="8" fill="url(#pattern-3)">
-      <rect width="349" height="565" rx="21" stroke="none"/>
-      <rect x="4" y="4" width="341" height="557" rx="17" fill="none"/>
-    </g>
-    <g id="Image_7-3" data-name="Image 7" transform="translate(1467 627)" stroke="#000" stroke-width="8" fill="url(#pattern-4)">
-      <rect width="349" height="565" rx="21" stroke="none"/>
-      <rect x="4" y="4" width="341" height="557" rx="17" fill="none"/>
-    </g>
-    <!--=======================================-->
+      <!-- HORIZONTAL LINE -->
+      <div class="hor_line_1" style="margin-bottom: 20px"></div>
 
-    <!-- TRUST =======================================-->
-    <g data-type="innerShadowGroup">
-      <path id="Path_8-2" data-name="Path 8" d="M4474.217-1471.375h391.451v254.826l-195.723,106.063L4474.217-1216.55Z" transform="translate(-3977.442 2832.15)" fill="#170600"/>
-      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_8)">
-        <path id="Path_8-3" data-name="Path 8" d="M4474.217-1471.375h391.451v254.826l-195.723,106.063L4474.217-1216.55Z" transform="translate(-3977.44 2832.15)" fill="#fff"/>
-      </g>
-      <path id="Path_8-4" data-name="Path 8" d="M4474.217-1471.375h391.451v254.826l-195.723,106.063L4474.217-1216.55Z" transform="translate(-3977.442 2832.15)" fill="none" stroke="#977555" stroke-width="10"/>
-    </g>
-    <!-- FIX ALIGNMENT-->
-    <text id="Gain_credibility_and_trust_amongst_customers_with_a_website._" data-name="Gain credibility and trust amongst customers with a website." transform="translate(692.5 1420)" fill="#fff" font-size="40" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="36">Gain credibility and </tspan>
-      <tspan x="0" y="87">trust amongst </tspan>
-      <tspan x="0" y="138">customers with a </tspan>
-      <tspan x="0" y="189">website.</tspan>
-    </text>
-    <!--==============================================-->
+      <!-- BENEFITS -->
+      <div class="benefitsContainer" style="margin-left: 3.125%">
+        <div class="centeringWrapper">
+          <img
+            class="benefitsIcon"
+            src="images/BuildTrust.png"
+            alt="buildTrustIcon"
+          />
+        </div>
+        <div class="centeringWrapper">
+          <div class="benefitsVerticalLine"></div>
+        </div>
+        <div class="benefitsBannerContainer">
+          <img
+            class="benefitsBanner"
+            src="images/ShortBanner.png"
+            alt="shortBannerIcon"
+          />
+          <div class="bannerText">
+            Gain credibility and trust amongst customers with a website.
+          </div>
+        </div>
+      </div>
+      <div class="benefitsContainer" style="margin-left: 9.375%">
+        <div class="centeringWrapper">
+          <img
+            class="benefitsIcon"
+            src="images/IncreaseConvenience.png"
+            alt="increaseConvenieceIcon"
+          />
+        </div>
+        <div class="centeringWrapper">
+          <div class="benefitsVerticalLine"></div>
+        </div>
+        <div class="benefitsBannerContainer">
+          <img
+            class="benefitsBanner"
+            src="images/LongBanner.png"
+            alt="longBannerIcon"
+          />
+          <div class="bannerText">
+            Let your customers interact with your business at any time, making
+            it easy for them discover what you have to offer.
+          </div>
+        </div>
+      </div>
+      <div class="benefitsContainer" style="margin-left: 9.375%">
+        <div class="centeringWrapper">
+          <img
+            class="benefitsIcon"
+            src="images/ExpandReach.png"
+            alt="expandReachIcon"
+          />
+        </div>
+        <div class="centeringWrapper">
+          <div class="benefitsVerticalLine"></div>
+        </div>
+        <div class="benefitsBannerContainer">
+          <img
+            class="benefitsBanner"
+            src="images/ShortBanner.png"
+            alt="shortBannerIcon"
+          />
+          <div class="bannerText">
+            Tap into the online world and let your customers find you.
+          </div>
+        </div>
+      </div>
 
-    <!-- CONVENIENCE =======================================-->
-    <g data-type="innerShadowGroup">
-      <path id="Path_9-2" data-name="Path 9" d="M4474.217-1471.375h391.451V-982.15l-195.723-50-195.728,50Z" transform="translate(-3500.442 2832.15)" fill="#170600"/>
-      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_9)">
-        <path id="Path_9-3" data-name="Path 9" d="M4474.217-1471.375h391.451V-982.15l-195.723-50-195.728,50Z" transform="translate(-3500.44 2832.15)" fill="#fff"/>
-      </g>
-      <path id="Path_9-4" data-name="Path 9" d="M4474.217-1471.375h391.451V-982.15l-195.723-50-195.728,50Z" transform="translate(-3500.442 2832.15)" fill="none" stroke="#977555" stroke-width="10"/>
-    </g>
-    <!-- FIX ALIGNMENT -->
-    <text id="Let_your_customers_interact_with_your_business_at_any_time_making_it_easy_for_them_discover_what_you_have_to_offer." data-name="Let your customers interact with your business at any time, making it easy for them discover what you have to offer." transform="translate(1169.5 1402)" fill="#fff" font-size="40" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="36">Let your customers </tspan>
-      <tspan x="0" y="87">interact with your </tspan>
-      <tspan x="0" y="138">business at any </tspan>
-      <tspan x="0" y="189">time, making it easy </tspan>
-      <tspan x="0" y="240">for them discover </tspan>
-      <tspan x="0" y="291">what you have to </tspan>
-      <tspan x="0" y="342">offer.</tspan>
-    </text>
-    <!--====================================================-->
-    
-    <!-- REACH =======================================-->
-    <g data-type="innerShadowGroup">
-      <path id="Path_10-2" data-name="Path 10" d="M4474.217-1471.375h391.451v254.826l-195.723,106.063L4474.217-1216.55Z" transform="translate(-3023.442 2832.15)" fill="#170600"/>
-      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Path_10)">
-        <path id="Path_10-3" data-name="Path 10" d="M4474.217-1471.375h391.451v254.826l-195.723,106.063L4474.217-1216.55Z" transform="translate(-3023.44 2832.15)" fill="#fff"/>
-      </g>
-      <path id="Path_10-4" data-name="Path 10" d="M4474.217-1471.375h391.451v254.826l-195.723,106.063L4474.217-1216.55Z" transform="translate(-3023.442 2832.15)" fill="none" stroke="#977555" stroke-width="10"/>
-    </g>
-    <!-- FIX ALIGNMENT -->
-    <text id="Tap_into_the_online_world_and_let_your_customers_find_you._" data-name="Tap into the online world and let your customers find you. " transform="translate(1646.5 1420)" fill="#fff" font-size="40" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="36">Tap into the online </tspan>
-      <tspan x="0" y="87">world and let your </tspan>
-      <tspan x="0" y="138">customers find you. </tspan>
-    </text>
-    <!--==============================================-->
-
-    <!-- BOTTOM TEXT WITH LINE ============-->
-    <!-- FIX ALIGNMENT -->
-    <text id="Ready_to_take_your_business_to_the_next_level_Contact_us_for_a_free_consultation." data-name="Ready to take your business to the next level?Contact us for a free consultation." transform="translate(1169.5 2153)" fill="#fff" font-size="40" font-family="SegoeUI, Segoe UI" text-anchor = "middle">
-      <tspan x="0" y="43">Ready to take your business to the next level?</tspan>
-      <tspan x="0" y="149" xml:space="preserve"> Contact us for a free consultation.</tspan>
-    </text>
-
-    <line id="Line_1" data-name="Line 1" x2="707" transform="translate(825.5 2239.5)" fill="none" stroke="#000" stroke-width="6"/>
-
-    <!--===================================-->
-  </g>
-</svg>
+      <!-- END TEXT AND BAR -->
+      <div class="paragraph">
+        <p>Ready to take your business to the next level?</p>
+      </div>
+      <div class="benefitsHorizontalLine"></div>
+      <div class="paragraph">
+        <p>Contact us for a free consultation.</p>
+      </div>
+    </div>
   </body>
 </html>

@@ -1,140 +1,81 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-       "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-  <meta charset="UTF-8">
-  <style>
-    /* Reset CSS for the html and body to remove default margins and paddings */
-    html, body {
-      margin: 0;
-      padding: 0;
-      height: 100%; /* Set the height to 100% of the viewport */
-      width: 100%; /* Set the width to 100% of the viewport */
-      fill: #121212
-      /**overflow: hidden; /* Optional: Prevents scrolling if the content is bigger than the viewport */
-    }
-    /* SVG specific styles */
-    svg {
-      display: block; /* Removes extra space around inline elements */
-      background: #121212; /* Optional: Set a background color if needed */
-    }
-  </style>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="2068" viewBox="0 0 1920 2380">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#2b1b13"/>
-      <stop offset="0.544" stop-color="#211d1b"/>
-      <stop offset="0.933" stop-color="#1e1d1d"/>
-      <stop offset="1" stop-color="#2a1b13"/>
-    </linearGradient>
-    <clipPath id="clip-path">
-      <rect id="Rectangle_7" data-name="Rectangle 7" width="1041" height="446" rx="119" transform="translate(744.04 446)" fill="#fff"/>
-    </clipPath>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarmotTech</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleAboutUs.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
 
-    <filter id="Path_7">
-      <feOffset dy="10" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="49.5" result="blur"/>
-      <feFlood flood-color="#fff" flood-opacity="0.161" result="color"/>
-      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
-      <feComposite operator="in" in="color"/>
-      <feComposite operator="in" in2="SourceGraphic"/>
-    </filter>
-    <clipPath id="clip-path-2">
-      <rect id="Rectangle_16" data-name="Rectangle 16" width="404" height="372" rx="64" transform="translate(513 1276)" fill="#fff" stroke="#707070" stroke-width="1"/>
-    </clipPath>
-    <clipPath id="clip-path-4">
-      <rect id="Rectangle_17" data-name="Rectangle 17" width="404" height="372" rx="64" transform="translate(1377 1276)" fill="#fff" stroke="#707070" stroke-width="1"/>
-    </clipPath>
-    <pattern id="pattern-2" width="1" height="1" patternTransform="matrix(-1, 0, 0, 1, 938, 0)" viewBox="0 0 469 559">
-      <use preserveAspectRatio="none" xlink:href="#image"/>
-    </pattern>
+  <body>
+    <!-- CREATE SIDEBARS -->
+    <div id="sidebar" class="sidebar">
+      <a href="/" class="sidebar-link">Home</a>
+      <a href="/about" class="sidebar-link">About Us</a>
+      <a href="/contact" class="sidebar-link">Contact Us</a>
+      <a href="/benefits" class="sidebar-link">Benefits</a>
+    </div>
+    <div id="sidebar2" class="sidebar2"></div>
 
-    <clipPath id="clip-About_Us">
-      <rect width="1920" height="2380
-      "/>
-    </clipPath>
-  </defs>
+    <!-- MAIN CONTAINER -->
+    <div id="AUMainSection" class="AUMainSection">
+      <!-- TITLE -->
+      <div class="title">About Us</div>
 
-  <g id="About_Us" data-name="About Us" clip-path="url(#clip-About_Us)">
-    <rect width="1920" height="2380" fill="#fff"/>
-    <path id="Path_11" data-name="Path 11" d="M0,0H1920V2380H0Z" fill="url(#linear-gradient)"/>
-    <image id="MarmotBanner" width="1041" height="446" transform="translate(425 341)"  xlink:href="images/MarmotBanner.png"></image>
-    
+      <!-- HORIZONTAL LINE -->
+      <div class="hor_line_1"></div>
 
-    <text id="Founded_by_two_ambitious_university_students_Marmot_Tech_isn_t_just_about_delivering_projects_it_s_about_applying_our_firsthand_experience_and_knowledge_to_make_a_real_impact_in_the_world_around_us._Our_mission_is_simple:_to_empower_local_businesses_with" data-name="Founded by two ambitious university students, Marmot Tech isn&apos;t just about delivering projects; it&apos;s about applying our firsthand experience and knowledge to make a real impact in the world around us. Our mission is simple: to empower local businesses with" transform="translate(474 899)" fill="#fff" font-size="25" font-family="ArialMT, Arial">
-      <tspan x="14.162" y="23">Founded by two ambitious university students, Marmot Tech isn&apos;t just about delivering </tspan>
-      <tspan x="27.785" y="74">projects; it&apos;s about applying our firsthand experience and knowledge to make a real </tspan>
-      <tspan x="3.853" y="125">impact in the world around us. Our mission is simple: to empower local businesses with </tspan>
-      <tspan x="39.918" y="176">cutting-edge technology that sets them apart and propels them towards success.</tspan>
-    </text>
+      <!-- ABOUT US BANNER -->
+      <img
+        class="AU_Banner"
+        src="images/MarmotBanner.png"
+        alt="About Us Banner"
+      />
 
+      <!-- PARAGRAPH 1 -->
+      <div class="paragraph" style="margin-top: 20px; margin-bottom: 40px">
+        <p>
+          Founded by two ambitious university students, MarmotTech isn't just
+          about delivering projects; it's about applying our firsthand
+          experience and knowledge to make a real impact in the world around us.
+          Our mission is simple: to empower local businesses with cutting-edge
+          technology that sets them apart and propels them towards success.
+        </p>
+      </div>
 
-    <path id="Path_15" data-name="Path 15" d="M2238,964.35H3510.346" transform="translate(-1920 -115)" fill="none" stroke="#fff" stroke-width="6"/>
-    <text id="About_Us-2" data-name="About Us" transform="translate(727 235)" fill="#fff" stroke="#000" stroke-width="3" font-size="105" font-family="Arial-BoldMT, Arial" font-weight="700">
-      <tspan x="0" y="0">About Us</tspan>
-    </text>
-    
-    <!-- SIDE BAR -->
-    <g id="Side_Bar" data-name="Side Bar">
-      <g>
-        <rect id="Rectangle_9" data-name="Rectangle 9" width="323" height="2380" fill="#121212"/>
-        <!--<rect x="1" y="1" width="321" height="2624" fill="none"/-->
-      </g>
-      <a href = "/"><text id="Home" transform="translate(28 155)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Home</tspan></text></a>
-      <text id="About_Us-3" data-name="About Us" transform="translate(29 265)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">About Us</tspan></text>
-      <a href = "/contact"><text id="Contact_Us" data-name="Contact Us" transform="translate(28 375)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Contact Us</tspan></text></a>
-      <a href = "/benefits"><text id="Benefits" transform="translate(29 485)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Benefits</tspan></text></a>
-    </g>
-    
-    <g id="Selected" transform="translate(19 257)">
-      <g id="Rectangle_11" data-name="Rectangle 11" fill="none" stroke="#bfbfbf" stroke-width="1">
-        <rect width="295" height="84" stroke="none"/>
-        <rect x="0.5" y="0.5" width="294" height="83" fill="none"/>
-      </g>
-      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(262)" fill="#bfbfbf" stroke="#fff" stroke-width="1">
-        <rect width="33" height="84" stroke="none"/>
-        <rect x="0.5" y="0.5" width="32" height="83" fill="none"/>
-      </g>
-    </g>
+      <!-- PROFILES -->
+      <div class="profileContainer" style="right: 50%; padding-right: 50px">
+        <img src="images/Andrew.png" width="100%" />
+        <div class="profileText">
+          <p>
+            Andrew Lee<br />
+            Computer Science<br />
+            Western University
+          </p>
+        </div>
+      </div>
+      <div class="profileContainer" style="left: 50%; padding-left: 50px">
+        <img src="images/Andrew.png" width="100%" />
+        <div class="profileText">
+          <p>
+            Yuval Rashish<br />
+            Computer Science<br />
+            Conestoga College
+          </p>
+        </div>
+      </div>
 
-    <!-- PROFILES -->
-    <text id="Andrew_Lee_Computer_Science_At_Western_University" data-name="Andrew Lee Computer Science At Western University" transform="translate(650 1724.5)" fill="#fff" font-size="40" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="36">Andrew Lee</tspan>
-      <tspan x="0" y="87">Computer Science At </tspan>
-      <tspan x="0" y="138">Western University</tspan>
-    </text>
-
-    <text id="Yuval_Rashish_Computer_Science_At_Conestoga_College" data-name="Yuval Rashish Computer Science At Conestoga College" transform="translate(1328 1724.5)" fill="#fff" font-size="40" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="36">Yuval Rashish</tspan>
-      <tspan x="0" y="87">Computer Science At </tspan>
-      <tspan x="0" y="138">Conestoga College</tspan>
-    </text>
-
-    <text id="At_Marmot_Tech_we_believe_that_every_business_deserves_the_chance_to_thrive._That_s_why_we_re_here_to_partner_with_you_on_your_journey_to_success_providing_the_digital_tools_and_solutions_you_need_to_stand_out_from_the_competition_and_reach_new_heights._" data-name="At Marmot Tech, we believe that every business deserves the chance to thrive. That's why we're here—to partner with you on your journey to success, providing the digital tools and solutions you need to stand out from the competition and reach new heights." transform="translate(960 2107)" fill="#fff" font-size="30" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="27">At Marmot Tech, we believe that every business deserves the </tspan>
-      <tspan x="0" y="78">chance to thrive. That&apos;s why we&apos;re here—to partner with you on </tspan>
-      <tspan x="0" y="129">your journey to success, providing the digital tools and solutions </tspan>
-      <tspan x="0" y="180">you need to stand out from the competition and reach new heights.</tspan>
-      <!--tspan x="0" y="231"></tspan-->
-    </text>
-    <path id="Path_13" data-name="Path 13" d="M2241,678l.243,371.505,1.1,1674.094.217,332.033" transform="translate(-2239 -677.999)" fill="none" stroke="#fff" stroke-width="4"/>
-    <path id="Path_12" data-name="Path 12" d="M2241,678l.243,371.505,1.1,1674.094.217,332.033" transform="translate(323 -677.999)" fill="none" stroke="#fff" stroke-width="4"/>
-
-    
-    <!-- These two groups draw the profile photos -->
-    <image id="Andrew" width="469" height="559" transform="translate(429 1183)"  xlink:href="images/Andrew.png"></image>
-    <image id="Yuval" width="469" height="559" transform="translate(1086 1183)"  xlink:href="images/Andrew.png"></image>
-
-    <g id="Side_Bar-2" data-name="Side Bar" transform="translate(1597 -2)">
-      <g id="Rectangle_9-2" data-name="Rectangle 9" fill="#121212" stroke="#fff" stroke-width="2">
-        <rect width="323" height="2380" stroke="none"/>
-      </g>
-    </g>
-
-    <rect id="_171443772125446094" data-name="171443772125446094" width="299" height="188" transform="translate(1298 35)" fill="url(#pattern-3)"/>
-  </g>
-</svg>
+      <!-- PARAGRAPH 2 -->
+      <div class="AU_MainText">
+        <p>
+          At Marmot Tech, we believe that every business deserves the chance to
+          thrive. That's why we're here—to partner with you on your journey to
+          success, providing the digital tools and solutions you need to stand
+          out from the competition and reach new heights.
+        </p>
+      </div>
+    </div>
   </body>
 </html>

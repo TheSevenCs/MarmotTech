@@ -1,137 +1,93 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-       "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <style> 
-    html, body {
-      margin: 0;
-      padding: 0;
-      width: 100%; /* Set the width to 100% of the viewport */
-      background-color: #121212;
-      overflow-x: hidden; /*Optional: Prevents scrolling if the content is bigger than the viewport */
-    } 
-    svg {
-      display: block; /* Removes extra space around inline elements */
-      background: #121212; /* Optional: Set a background color if needed */
-    }
-  </style>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MarmotTech</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/stylehome.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
 
-<body>
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="100%" height="2068" viewBox="0 0 1920 2627">
-  <defs>
-    <linearGradient id="linear-gradient" x1="0.524" y1="0.45" x2="0.5" y2="-0.107" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#1d1d1d"/>
-      <stop offset="1" stop-color="#341b0d"/>
-    </linearGradient>
-    
-    <filter id="Rectangle_8">
-      <feOffset dy="10" input="SourceAlpha"/>
-      <feGaussianBlur stdDeviation="49.5" result="blur"/>
-      <feFlood flood-color="#fff" flood-opacity="0.161" result="color"/>
-      <feComposite operator="out" in="SourceGraphic" in2="blur"/>
-      <feComposite operator="in" in="color"/>
-      <feComposite operator="in" in2="SourceGraphic"/>
-    </filter>
+  <body>
+    <!-- SIDEBARS -->
+    <div id="sidebar" class="sidebar">
+      <a href="/" class="sidebar-link">Home</a>
+      <a href="/about" class="sidebar-link">About Us</a>
+      <a href="/contact" class="sidebar-link">Contact Us</a>
+      <a href="/benefits" class="sidebar-link">Benefits</a>
+    </div>
+    <div id="sidebar2" class="sidebar2">
+      <img
+        class="sidebarLogo"
+        src="images/MarmotLogo.png"
+        alt="Contact Banner"
+      />
+    </div>
 
-    <clipPath id="clip-Homepage">
-      <rect width="1920" height="2627"/>
-    </clipPath>
-  </defs>
+    <!-- MAIN CONTAINER -->
+    <div id="mainsection" class="mainsection">
+      <!-- PAGE BANNER -->
+      <img class="homeBanner" src="images/HomeBanner.png" alt="homeBanner" />
 
-  <g id="Homepage" clip-path="url(#clip-Homepage)">
-    <rect width="1920" height="2627" fill="#fff"/>
-    <rect id="Rectangle_6" data-name="Rectangle 6" width="1920" height="2626" fill="url(#linear-gradient)"/>
-    
-    <g id="Side_Bar" data-name="Side Bar">
-      <g id="Rectangle_9" data-name="Rectangle 9" fill="#121212" stroke="#fff" stroke-width="2">
-        <rect width="323" height="2626" stroke="none"/>
-        <rect x="1" y="1" width="321" height="2624" fill="none"/>
-      </g>
+      <!-- PAGE TITLE -->
+      <div class="home_title">Empowering Local Businesses to Thrive Online</div>
 
-      <text id="Home"  transform="translate(28 155)" class="fixed-text" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Home</tspan></text>
-      <a href = "/about"><text id="About_Us" data-name="About Us" transform="translate(29 265)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">About Us</tspan></text></a>
-      <a href = "/contact"><text id="Contact_Us" data-name="Contact Us" transform="translate(28 375)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Contact Us</tspan></text></a>
-      <a href = "benefits"><text id="Benefits" transform="translate(29 485)" fill="#fff" font-size="45" font-family="Arial-BoldMT, Arial" font-weight="700"><tspan x="0" y="41">Benefits</tspan></text></a>
-    </g>
+      <!-- 1ST PARAGRAPH GOES IN BOX -->
+      <div class="homeFrame1Container">
+        <div class="homeFrame1Text">
+          Founded by two ambitious university students, MarmotTech isn't just
+          about delivering projects; it's about applying our firsthand
+          experience and knowledge to make a real impact in the world around us.
+          Our mission is simple: to empower local businesses with cutting-edge
+          technology that sets them apart and propels them towards success.
+        </div>
+      </div>
 
-    <!-- HOME PAGE HEADER BANNER ======-->
-    <image id="HomeBanner" width="1274" height="227" transform="translate(323 0)"  xlink:href="images/HomeBanner.png"></image>
-    <!--===============================-->
+      <!-- BOX WITH ICONS -->
+      <div class="homeFrame2Container">
+        <!-- LABELS -->
+        <div
+          class="homeFrame2Text"
+          style="text-align: left; left: 10%; top: 10%"
+        >
+          Sleek<br />
+          Modern<br />
+          Websites
+        </div>
+        <div
+          class="homeFrame2Text"
+          style="text-align: right; right: 10%; bottom: 10%"
+        >
+          Innovative<br />
+          Software<br />
+          Solutions
+        </div>
 
-    <text id="Empowering_KW_Local_Businesses_to_Thrive_Online" data-name="Empowering KW Local Businesses to Thrive Online" text-anchor="middle" transform="translate(965 321)" fill="#fff" font-size="60" font-family="FuturaPT-Bold, Futura PT" font-weight="700">
-      <tspan x="0" y="59">Empowering KW Local Businesses to </tspan>
-      <tspan x="0" y="136">Thrive Online</tspan>
-    </text>
+        <!-- ICONS -->
+        <img
+          class="homeFrame2Icon"
+          src="images/smwIcon.png"
+          style="top: 10%; right: 10%"
+        />
+        <img
+          class="homeFrame2Icon"
+          src="images/issIcon.png"
+          style="bottom: 10%; left: 10%"
+        />
+      </div>
 
-    <g data-type="innerShadowGroup">
-      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_8)">
-        <rect id="Rectangle_8-2" data-name="Rectangle 8" width="1212" height="380" transform="translate(354 566)" fill="#fff"/>
-      </g>
-      <g id="Rectangle_8-3" data-name="Rectangle 8" transform="translate(354 566)" fill="none" stroke="#c9c1c1" stroke-width="6">
-        <rect width="1212" height="380" stroke="none"/>
-        <rect x="3" y="3" width="1206" height="374" fill="none"/>
-      </g>
-    </g>
-
-    <!-- LARGE BODIES OF TEXT =========-->
-    <text id="At_MarmotTech_we_believe_every_business_deserves_a_spot_on_the_digital_map._Whether_you_re_tech-savvy_or_new_to_the_digital_world_we_re_here_to_guide_you_every_step_of_the_way._Why_go_digital_Because_your_future_customers_are_online._A_website_isn_t_ju" data-name="At MarmotTech, we believe every business deserves a spot on the digital map. Whether you’re tech-savvy or new to the digital world, we’re here to guide you every step of the way. Why go digital? Because your future customers are online. A website isn’t ju" transform="translate(950 621)" fill="#fff" font-size="25" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="23">At MarmotTech, we believe every business deserves a spot on the digital map. Whether you’re tech-savvy </tspan>
-      <tspan x="0" y="77">or new to the digital world, we’re here to guide you every step of the way. Why go digital? Because your </tspan>
-      <tspan x="0" y="131">future customers are online. </tspan>
-      <tspan x="0" y="185">A website isn’t just a luxury; it’s a fundamental tool that helps you reach new customers, serve your </tspan>
-      <tspan x="0" y="239">regulars better, and grow your business sustainably.</tspan>
-    </text>
-    <text id="_With_a_focus_on_creativity_innovation_and_customer_satisfaction_we_take_pride_in_our_ability_to_transform_ideas_into_reality._Whether_it_s_designing_a_visually_stunning_website_or_developing_custom_software_tailored_to_specific_needs_we_re_committed_t" data-name="With a focus on creativity, innovation, and customer satisfaction, we take pride in our ability to transform ideas into reality. Whether it&apos;s designing a visually stunning website or developing custom software tailored to specific needs, we&apos;re committed t" transform="translate(970 2066)" fill="#fff" font-size="25" font-family="ArialMT, Arial" text-anchor = "middle">
-      <tspan x="0" y="23"></tspan>
-      <tspan x="0" y="74">With a focus on creativity, innovation, and customer satisfaction, we take pride in our </tspan>
-      <tspan x="0" y="125">ability to transform ideas into reality. Whether it's designing a visually stunning </tspan>
-      <tspan x="0" y="176">website or developing custom software tailored to specific needs, we're committed to </tspan>
-      <tspan x="0" y="227">delivering results that exceed expectations.</tspan>
-      <tspan x="0" y="329">Let's create something extraordinary together. Welcome to Marmot Tech.</tspan>
-    </text>
-
-    <!-- SERVICES TEXT ============-->
-    <text id="Sleek_Modern_Websites" data-name="Sleek Modern Websites" transform="translate(678 1284)" fill="#fff" font-size="40" font-family="Arial-BoldMT, Arial" font-weight="700">
-      <tspan x="0" y="36">Sleek</tspan>
-      <tspan x="0" y="106">Modern</tspan>
-      <tspan x="0" y="176">Websites</tspan>
-    </text>
-    <text id="Innovative_Software_Solutions" data-name="Innovative Software Solutions" text-anchor="end" transform="translate(1284 1632)" fill="#fff" font-size="40" font-family="Arial-Black, Arial" font-weight="800">
-      <tspan x="0" y="44">Innovative</tspan>
-      <tspan x="0" y="114">Software</tspan>
-      <tspan x="0" y="184">Solutions</tspan>
-    </text>
-    <!-- SERVICES ICONS ===========-->
-    <image id="smwIcon" width="355" height="355" transform="translate(968 1198)"  xlink:href="images/smwIcon.png"></image>
-    <image id="issIcon" width="341" height="341" transform="translate(597 1553)"  xlink:href="images/issIcon.png"></image>
-    <!--===========================-->
-
-    <g id="Rectangle_14" data-name="Rectangle 14" transform="translate(485 1095)" fill="none" stroke="#fff" stroke-width="16">
-      <rect width="950" height="902" rx="56" stroke="none"/>
-      <rect x="8" y="8" width="934" height="886" rx="48" fill="none"/>
-    </g>
-  
-    <g id="Side_Bar-2" data-name="Side Bar" transform="translate(1597 -2)">
-      <g id="Rectangle_9-2" data-name="Rectangle 9" fill="#121212" stroke="#fff" stroke-width="2">
-        <rect width="323" height="2626" stroke="none"/>
-        <rect x="1" y="1" width="321" height="2624" fill="none"/>
-      </g>
-    </g>
-  
-    <g id="Selected" transform="translate(19 143)">
-      <g id="Rectangle_11" data-name="Rectangle 11" fill="none" stroke="#bfbfbf" stroke-width="1">
-        <rect width="295" height="84" stroke="none"/>
-        <rect x="0.5" y="0.5" width="294" height="83" fill="none"/>
-      </g>
-
-      <g id="Rectangle_10" data-name="Rectangle 10" transform="translate(262)" fill="#bfbfbf" stroke="#fff" stroke-width="1">
-        <rect width="33" height="84" stroke="none"/>
-        <rect x="0.5" y="0.5" width="32" height="83" fill="none"/>
-      </g>
-    </g>
-  </g> <!-- Homepage Group END -->
-</svg>
+      <!-- PARAGRAPH -->
+      <div class="paragraph">
+        With a focus on creativity, innovation, and customer satisfaction, we
+        take pride in our ability to transform ideas into reality. Whether it's
+        designing a visually stunning website or developing custom software
+        tailored to specific needs, we're committed to delivering results that
+        exceed expectations. Let's create something extraordinary together.
+        <br />
+        <br />
+        Welcome to Marmot Tech.
+      </div>
+    </div>
   </body>
 </html>
