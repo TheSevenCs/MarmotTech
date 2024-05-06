@@ -92,11 +92,15 @@
   height: 40%;
   position: absolute;
 }
-.homeFrame2Text1 {
-  text-align: left;
-}
-.homeFrame2Text2 {
-  text-align: right;
+.homeFrame2Text {
+  position: absolute;
+
+  font-weight: "700";
+
+  /* text-align: left; */
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Arial";
 }
 .AU_Banner {
   display: block;
@@ -219,7 +223,7 @@
 
 .mainsection {
   width: 67.8vw;
-  height: 200vh;
+  height: 2000vh;
   position: absolute; /* This is required for top and left to work */
   top: 0;
   left: 16.1vw;
