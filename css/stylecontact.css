@@ -1,0 +1,40 @@
+.ContactBanner {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 849px;
+}
+
+.email-box {
+  margin-top: 40px;
+  width: 459px;
+  height: 94px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 2.5%;
+  background-color: #121212;
+  border: 8px solid white;
+}
+.email-title {
+  text-align: center;
+  color: white;
+  font-family: Arial;
+  font-size: 39px;
+  margin-top: 100px;
+}
+
+.email-text {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 25px;
+  color: white;
+  font-family: Arial;
+}
+.email-icon {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20.5%;
+  margin-right: auto;
+  margin-top: 3%;
+  width: 84px;
+}

@@ -1,0 +1,55 @@
+.home_title {
+  font-size: 60px;
+  margin-top: 94px;
+  margin-bottom: 91px;
+  text-align: center;
+  font-family: "Futura PT", sans-serif; /* Use Futura PT font */
+  font-weight: bold;
+  color: white;
+}
+
+.homeBanner {
+  width: 100%;
+  top: 0;
+}
+
+.homeFrame1Container {
+  width: 85%;
+  margin-left: 10%;
+  position: relative;
+  border: 6px solid white;
+  box-shadow: inset 0 10px 99px rgba(255, 255, 255, 0.16);
+  margin-bottom: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.homeFrame1Text {
+  top: 7.5%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  text-align: center;
+  color: white; /* Text color */
+  font-size: 33.3333px;
+  font-family: "Arial";
+}
+.homeFrame2Container {
+  width: 950%;
+  padding-top: 10px;
+  margin-left: 12.5%;
+  margin-top: 149px;
+  position: relative;
+  display: inline-block;
+}
+
+.homeFrame2Icon {
+  height: 40%;
+  position: absolute;
+}
+.homeFrame2Text {
+  font-weight: "700";
+
+  /* text-align: left; */
+  color: #ffffff;
+  font-size: 40px;
+  font-family: "Arial";
+}

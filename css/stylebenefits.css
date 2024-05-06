@@ -1,0 +1,47 @@
+/* BENEFITS */
+.benefitsContainer {
+  /* Is the container that makes up "3 columns" that are the benefits */
+  /* Since containers take up (horizontal) blocks by default, the display layout must be manually set */
+  display: inline-block;
+  vertical-align: top;
+  width: 25%;
+  /* left margin must be manually set */
+}
+.benefitsIcon {
+  /* AI Generated Icons */
+  width: 80%;
+}
+.benefitsVerticalLine {
+  /* Thin, gray, vertical lines used for styling */
+  width: 2px;
+  height: 120px;
+  margin-top: 28px;
+  margin-bottom: 28px;
+  background-color: #707070;
+  /* chagne color to 707070 */
+}
+.benefitsBannerContainer {
+  /* Used to hold the banner image and text inside the image */
+  width: 100%;
+  position: relative;
+}
+.benefitsBanner {
+  /* Banner image */
+  width: 100%;
+}
+.benefitsHorizontalLine {
+  height: 6px;
+  width: 50%;
+  margin-left: 25%;
+  background-color: #ff0000;
+}
+.bannerText {
+  position: absolute; /* allows for position relative to nearest ancestor */
+  top: 7.5%;
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+  text-align: center;
+  color: white; /* Text color */
+  font-size: 20px; /* Text size */
+  font-family: Arial, sans-serif; /* Typography */
+}
