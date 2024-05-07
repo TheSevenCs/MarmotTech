@@ -61,7 +61,7 @@
 .sidebar-link {
   display: block;
   padding: 1vw;
-  transform: translateY(30vh);
+  transform: translateY(26.1875vh);
   color: white;
   font-size: 2.8125vw;
   font-family: Arial;
@@ -131,12 +131,33 @@
   background-position: center;
   display: block;
   margin: auto;
-  overflow-x: hidden; /* Stops horizontal scrolling */
   overflow-y: hidden;
+  overflow-x: auto; /* Enable horizontal scrolling */
+  white-space: nowrap; /* Prevent icons from wrapping to the next line */
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
 }
 
 .centerImage {
   justify-content: center;
+}
+
+.navbar-button {
+  background-color: #272b31;
+  border-radius: 32px;
+  border: 1px solid #262a30;
+  box-shadow: inset 0 0 12px rgba(0, 0, 0, 100px);
+  box-shadow: 0 1px 9px rgba(0, 0, 0, 100px);
+  width: 343px;
+  height: 92px;
+}
+
+.navbar-button-text {
+  color: white;
+  font-family: Arial;
+  font-size: 45px;
+  font-weight: bold;
+  text-align: center;
 }
 
 body,
