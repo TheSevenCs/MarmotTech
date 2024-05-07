@@ -30,15 +30,18 @@
   text-align: center;
   color: white; /* Text color */
   font-size: 33.3333px;
+
   font-family: "Arial";
 }
 .homeFrame2Container {
-  width: 950%;
+  width: 75%;
   padding-top: 10px;
-  margin-left: 12.5%;
+
   margin-top: 149px;
   position: relative;
-  display: inline-block;
+  display: block;
+  border: 16px solid white;
+  border-radius: 56px;
 }
 
 .homeFrame2Icon {
@@ -47,6 +50,7 @@
 }
 .homeFrame2Text {
   font-weight: "700";
+  position: relative;
 
   /* text-align: left; */
   color: #ffffff;
