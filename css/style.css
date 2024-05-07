@@ -132,7 +132,6 @@
   margin: auto;
   overflow-y: hidden;
   overflow-x: auto; /* Enable horizontal scrolling */
-  white-space: nowrap; /* Prevent icons from wrapping to the next line */
   -ms-overflow-style: none; /* IE and Edge */
   scrollbar-width: none; /* Firefox */
 }
