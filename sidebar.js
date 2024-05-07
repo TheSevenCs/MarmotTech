@@ -2,11 +2,12 @@ function showSidebar() {
   var sidebar = document.getElementById("navBar");
   var shade = document.getElementById("navBar2");
 
-  if (sidebar.style.display === "none" || sidebar.style.display === "") {
-    sidebar.style.display = "block"; // Show the sidebar
-    shade.style.display = "block";
-  } else {
-    sidebar.style.display = "none"; // Hide the sidebar
+  if (sidebar.style.left === "0px" || sidebar.style.left === "") {
+    sidebar.style.left = "-75vw"; // Move the sidebar off-screen
     shade.style.display = "none";
+  } else {
+    sidebar.style.left = "0"; // Move the sidebar on-screen
+    sidebar.style.display = "block";
+    shade.style.display = "block";
   }
 }
