@@ -80,7 +80,7 @@
   width: 75%;
 }
 .navBar {
-  width: 70vw;
+  width: 75vw;
   height: 100vh;
   position: fixed;
   top: 0;
@@ -166,7 +166,7 @@ html {
     position: absolute; /* This is required for top and left to work */
   }
 
-  /* NOW ADD BUTTON FOR SIDEBAR MENU */
+  /* SHOW SIDEBAR BUTTON */
   .sidebarButton {
     display: block;
   }
