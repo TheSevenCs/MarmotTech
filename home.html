@@ -27,8 +27,29 @@
 
     <!-- MAIN CONTAINER -->
     <div id="mainsection" class="mainsection" style="height: 2200px">
+      <!-- CREATE NAV BAR IN CASE ON MOBILE -->
+      <div id="navBar" class="navBar">
+        <button
+          id="sidebarButton"
+          class="sidebarButton"
+          onclick="showSidebar()"
+        >
+          Toggle Sidebar
+        </button>
+        <a href="/" class="sidebar-link">Home</a>
+        <a href="/about" class="sidebar-link">About Us</a>
+        <a href="/contact" class="sidebar-link">Contact Us</a>
+        <a href="/benefits" class="sidebar-link">Benefits</a>
+      </div>
+
+      <div id="navBar2" class="navBar2" onclick="showSidebar()"></div>
+
       <!-- PAGE BANNER -->
       <img class="homeBanner" src="images/HomeBanner.png" alt="homeBanner" />
+
+      <button id="sidebarButton" class="sidebarButton" onclick="showSidebar()">
+        Toggle Sidebar
+      </button>
 
       <!-- PAGE TITLE -->
       <div
@@ -98,5 +119,6 @@
         Welcome to Marmot Tech.
       </div>
     </div>
+    <script src="sidebar.js"></script>
   </body>
 </html>
