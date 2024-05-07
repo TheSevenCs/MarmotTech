@@ -14,12 +14,12 @@
 }
 
 .homeFrame1Container {
-  width: 85%;
-  margin-left: 10%;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
   border: 6px solid white;
   box-shadow: inset 0 10px 99px rgba(255, 255, 255, 0.16);
-  margin-bottom: 80px;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -29,30 +29,36 @@
   margin-right: 7.5%;
   text-align: center;
   color: white; /* Text color */
-  font-size: 33.3333px;
+  font-size: 30px;
 
   font-family: "Arial";
 }
 .homeFrame2Container {
-  width: 75%;
-  padding-top: 10px;
-
-  margin-top: 149px;
+  width: 750px;
+  height: 750px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
   position: relative;
-  display: block;
   border: 16px solid white;
   border-radius: 56px;
 }
-
 .homeFrame2Icon {
-  height: 40%;
+  height: 42.5%;
   position: absolute;
+}
+.homeFrame2TextContainer {
+  width: 42.5%;
+  height: 42.5%;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .homeFrame2Text {
   font-weight: "700";
-  position: relative;
+  position: absolute;
 
-  /* text-align: left; */
   color: #ffffff;
   font-size: 40px;
   font-family: "Arial";
