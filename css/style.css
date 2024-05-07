@@ -84,18 +84,19 @@
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 0;
+  left: -75vw;
   background: #121212;
   overflow: hidden;
   display: none;
   z-index: 5; /* higher value makes it "closer" to the user */
+  transition: left 0.5s ease;
 }
 .navBar2 {
-  width: 50vw;
+  width: 100vw;
   height: 100vh;
   position: fixed;
   top: 0;
-  left: 50vw;
+  left: 0;
   background: #121212;
   overflow: hidden;
   display: none;
