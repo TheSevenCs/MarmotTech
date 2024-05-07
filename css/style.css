@@ -19,8 +19,8 @@
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  padding: 97px;
-  line-height: 51px;
+  padding: 10px;
+  line-height: 45px;
   /* margin-bottom: 180px;
   margin-top: 102px; */
 }
@@ -79,6 +79,46 @@
   margin-top: 39px;
   width: 75%;
 }
+.navBar {
+  width: 75vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: #121212;
+  overflow: hidden;
+  display: none;
+  z-index: 5; /* higher value makes it "closer" to the user */
+}
+.navBar2 {
+  width: 50vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 50vw;
+  background: #121212;
+  overflow: hidden;
+  display: none;
+  z-index: 4; /* higher value makes it "closer" to the user */
+  opacity: 50%;
+}
+
+/* BUTTON TO ACCESS SIDEBAR */
+.sidebarButton {
+  display: none;
+  position: absolute;
+  right: 10%;
+  padding: 10px 20px;
+  background-color: #00ff26;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+}
+.sidebarButton:hover {
+  background-color: #0056b3;
+}
 
 .mainsection {
   width: 67.8vw;
@@ -131,7 +171,32 @@ html {
     display: hidden;
   }
 }
+
+/* MOBILE DEVICES */
 @media only screen and (max-device-width: 767px) {
+  /* REMOVE SIDEBARS AND REPLACE WITH MAIN SECTION */
+  .sidebar {
+    display: none;
+  }
+  .sidebar2 {
+    display: none;
+  }
+  .mainsection {
+    width: 100%;
+    left: 0;
+    position: absolute; /* This is required for top and left to work */
+  }
+
+  /* SHOW SIDEBAR BUTTON */
+  .sidebarButton {
+    display: block;
+  }
+
+  .paragraph {
+    line-height: 40px;
+    padding: 5px;
+  }
+
   .title {
     font-size: 5vw;
   }
@@ -146,14 +211,6 @@ html {
     font-size: 4vw; /* Adjust font size relative to viewport width */
   }
 
-  .mainsection {
-    width: 67.8vw; /* Adjust width to fill the viewport */
-    left: 16.1vw;
-    right: auto;
-    display: block;
-    margin: auto;
-    position: absolute; /* This is required for top and left to work */
-  }
   .ContactBanner {
     display: block;
     margin-left: auto;

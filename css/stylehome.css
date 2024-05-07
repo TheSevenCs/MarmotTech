@@ -35,7 +35,8 @@
 }
 .homeFrame2Container {
   width: 750px;
-  height: 750px;
+  /* height: 750px; */
+  padding-top: 750px;
   margin-top: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -62,4 +63,17 @@
   color: #ffffff;
   font-size: 40px;
   font-family: "Arial";
+}
+
+@media only screen and (max-device-width: 767px) {
+  .homeFrame1Container {
+    width: 90%;
+    margin: 0 center;
+  }
+  .homeFrame2Container {
+    width: 80%;
+    padding-top: 80%;
+    margin: 0 center;
+    margin-top: 60px;
+  }
 }
