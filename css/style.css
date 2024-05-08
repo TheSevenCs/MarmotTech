@@ -164,14 +164,14 @@ html {
   background-position: center top 0; /* Corrected background position */
   background: #ffffff;
 }
-@media (min-width: 1200px) {
-  .title {
-    display: hidden;
+@media (min-width: 768px) {
+  .navBar {
+    display: none;
   }
 }
 
 /* MOBILE DEVICES */
-@media only screen and (max-device-width: 767px) {
+@media only screen and (max-width: 767px) {
   /* REMOVE SIDEBARS AND REPLACE WITH MAIN SECTION */
   .sidebar {
     display: none;
@@ -187,6 +187,9 @@ html {
 
   /* SHOW SIDEBAR BUTTON */
   .sidebarButton {
+    display: block;
+  }
+  .navBar {
     display: block;
   }
 

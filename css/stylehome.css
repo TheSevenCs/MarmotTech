@@ -76,4 +76,12 @@
     margin: 0 center;
     margin-top: 60px;
   }
+  .homeFrame2Text {
+    font-weight: "700";
+    position: absolute;
+
+    color: #ffffff;
+    font-size: 4vw;
+    font-family: "Arial";
+  }
 }
