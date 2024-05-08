@@ -1,0 +1,49 @@
+.icon-img {
+  cursor: default;
+  border-radius: 29px;
+  max-height: 212px; /* Set maximum height for the icons */
+  max-width: 212px; /* Set maximum width for the icons */
+}
+.icon:hover {
+  background-color: #7e7e7e;
+}
+.icon {
+  background-color: white;
+  display: inline-block;
+  border: 7px solid white;
+  border-radius: 29px;
+  margin-top: 10px;
+  box-shadow: 0 8px 2px rgba(0, 0, 0, 0.75);
+}
+.table-container {
+  white-space: nowrap; /* Prevent icons from wrapping to the next line */
+}
+
+.table-container table {
+  width: auto; /* Allow the table to adjust its width based on content */
+}
+.info-box {
+  margin-top: 200px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  color: white;
+  font-family: Arial;
+  font-size: 30px;
+  text-align: center;
+  width: 1041px;
+  height: auto;
+  border: 3px solid white;
+  border-radius: 30px;
+  box-shadow: inset 0 0px 25px rgba(0, 0, 0, 1);
+  padding: 25px;
+  /* Added flexbox properties */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+}
+
+.icon-title {
+  color: white;
+  font-size: 45px;
+  font-family: Arial;
+}

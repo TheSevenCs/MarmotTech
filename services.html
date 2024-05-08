@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Services</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/styleservices.css" />
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  </head>
+
+  <body>
+    <!-- CREATE SIDEBARS -->
+    <div id="sidebar" class="sidebar">
+      <a href="/" class="sidebar-link">Home</a>
+      <a href="/about" class="sidebar-link">About Us</a>
+      <a href="/contact" class="sidebar-link">Contact Us</a>
+      <a href="/benefits" class="sidebar-link">Benefits</a>
+    </div>
+    <div id="sidebar2" class="sidebar2"></div>
+
+    <!-- MAIN CONTAINER -->
+    <div id="mainsection" class="mainsection">
+      <div class="title">Services</div>
+      <hr style="border: 3px solid white" />
+      <img
+        src="/images/ServiceBanner.png"
+        alt="ServiceBanner"
+        style="display: block; margin: 0 auto; margin-top: 55px"
+      />
+      <div
+        style="
+          margin-top: 120px;
+          color: white;
+          font-family: Arial;
+          font-size: 45px;
+          text-align: center;
+        "
+      >
+        Our Services
+      </div>
+      <hr style="border: 2px solid white; width: 421px; margin-top: 30px" />
+      <div class="table-container">
+        <table
+          style="
+            margin: 0 auto;
+            margin-bottom: 20px;
+            margin-top: 45px;
+            max-width: 67.8vw;
+          "
+        >
+          <tr align="center">
+            <th class="icon-title">Websites</th>
+            <th style="visibility: hidden"></th>
+            <th class="icon-title">Software</th>
+            <th style="visibility: hidden"></th>
+            <th class="icon-title">Web-Apps</th>
+          </tr>
+          <tr align="center">
+            <td>
+              <div class="icon">
+                <img
+                  src="images/WebsiteIcon.png"
+                  class="icon-img"
+                  onmouseover="hoverText('web')"
+                />
+              </div>
+            </td>
+            <td style="visibility: hidden">space</td>
+            <td>
+              <div class="icon">
+                <img
+                  src="images/SoftwareIcon.png"
+                  class="icon-img"
+                  onmouseover="hoverText('soft')"
+                />
+              </div>
+            </td>
+            <td style="visibility: hidden">space</td>
+            <td>
+              <div class="icon">
+                <img
+                  src="images/WebApp.png"
+                  class="icon-img"
+                  onmouseover="hoverText('webapp')"
+                />
+              </div>
+            </td>
+          </tr>
+        </table>
+      </div>
+      <div class="info-box">Hover Over An Icon</div>
+    </div>
+    <script>
+      function hoverText(icon) {
+        var divElement = document.querySelector(".info-box");
+        if (icon == "web")
+          divElement.textContent =
+            "We design custom websites tailored to showcase your business online. Our approach combines modern design principles with user-friendly interfaces, ensuring your site not only looks professional but also functions seamlessly across all devices.";
+        else if (icon == "soft")
+          divElement.textContent =
+            "Our team develops customized software solutions designed to streamline operations and enhance efficiency for your business. From inventory management to customer relations, we provide tailored software that meets your specific needs and integrates smoothly with your existing systems.";
+        else if (icon == "webapp")
+          divElement.textContent =
+            "We create dynamic web applications that offer powerful functionality and real-time performance across browsers. Whether it's a booking system, an interactive customer service platform, or a comprehensive management tool, our webapps are built to improve engagement and optimize your business processes.";
+      }
+    </script>
+  </body>
+</html>
