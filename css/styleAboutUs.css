@@ -34,3 +34,56 @@
   width: 895px;
   margin-top: 600px;
 }
+.AU_Paragraph {
+  font-family: "Arial";
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  line-height: 35px;
+  max-width: 900px;
+}
+
+@media (max-width: 767px) {
+  .AU_Banner {
+    width: 85%;
+  }
+  .profileContainer {
+    width: 40%;
+  }
+  .profileText {
+    font-size: 25px;
+  }
+  .AU_MainText {
+    width: 85%;
+    font-size: 30px;
+    margin-top: 500px;
+    line-height: 45px;
+  }
+  .AU_Paragraph {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 425px) {
+  .AU_Banner {
+    width: 85%;
+  }
+  .profileContainer {
+    width: 40%;
+  }
+  .profileText {
+    font-size: 19px;
+  }
+  .AU_MainText {
+    margin-top: 325px;
+    width: 85%;
+    font-size: 19px;
+    line-height: 25px;
+  }
+  .AU_Paragraph {
+    line-height: 30px;
+  }
+}

@@ -186,6 +186,9 @@ html {
 /* MOBILE DEVICES */
 @media (max-width: 767px) {
   /* REMOVE SIDEBARS AND REPLACE WITH MAIN SECTION */
+  .title {
+    font-size: 60px;
+  }
   .sidebar {
     display: none;
   }
@@ -210,39 +213,39 @@ html {
     line-height: 40px;
     padding: 5px;
   }
-
-  .title {
-    font-size: 5vw;
-  }
-
   .AU_MainText {
     font-size: 30px; /* Adjust font size relative to viewport width */
     line-height: 6vw; /* Adjust line height relative to viewport width */
     width: fit-;
   }
-
   .home_title {
     font-size: 4vw; /* Adjust font size relative to viewport width */
   }
-
   .ContactBanner {
     display: block;
     margin-left: auto;
     margin-right: auto;
     width: 174.609375px;
   }
-
   .homebanner {
     width: 100%; /* Adjust width to fill the viewport */
     padding: 5vw; /* Adjust padding relative to viewport width */
   }
-
   .bannerimage {
     width: 100%; /* Adjust width to fill the viewport */
   }
+
+  /* ABOUT US */
 }
 
 @media (max-width: 425px) {
+  .title {
+    margin-top: 60px;
+  }
+  .paragraph {
+    padding: 20px;
+    margin-top: 0px;
+  }
   .homeTitle {
     font-size: 35px;
     padding: 20px;
