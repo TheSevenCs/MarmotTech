@@ -168,10 +168,23 @@ html {
   .navBar {
     display: none;
   }
+  @media (max-width: 425px) {
+    .homeTitle {
+      font-size: 35px;
+      padding: 20px;
+    }
+    .homeFrame1Container {
+      padding: 10px;
+      width: 80%;
+    }
+    .homeFrame1Text {
+      font-size: 15px;
+    }
+  }
 }
 
 /* MOBILE DEVICES */
-@media only screen and (max-width: 767px) {
+@media (max-width: 767px) {
   /* REMOVE SIDEBARS AND REPLACE WITH MAIN SECTION */
   .sidebar {
     display: none;
@@ -228,13 +241,17 @@ html {
     width: 100%; /* Adjust width to fill the viewport */
   }
 }
-@media (max-width: 1000px) {
-  .title {
-    font-size: 8.847791378392762vw;
+
+@media (max-width: 425px) {
+  .homeTitle {
+    font-size: 35px;
+    padding: 20px;
   }
-}
-@media (max-width: 1200px) {
-  .ContactBanner {
-    width: 67.77541245343268vw;
+  .homeFrame1Container {
+    padding: 10px;
+    width: 80%;
+  }
+  .homeFrame1Text {
+    font-size: 15px;
   }
 }
