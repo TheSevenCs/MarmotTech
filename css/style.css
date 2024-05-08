@@ -132,9 +132,7 @@
   display: block;
   margin: auto;
   overflow-y: hidden;
-  overflow-x: auto; /* Enable horizontal scrolling */
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  overflow-x: hidden;
 }
 
 .centerImage {
