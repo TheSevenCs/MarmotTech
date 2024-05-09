@@ -134,10 +134,9 @@
 .sidebarButton {
   display: none;
   z-index: 6;
-  position: absolute;
   left: 2%;
-  top: 1%;
-  padding: 15px 15px;
+  top: 10px;
+  padding: 4vw 4vw;
   background-color: #121212;
   color: white;
   border: 1px solid white;
