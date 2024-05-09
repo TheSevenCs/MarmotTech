@@ -29,6 +29,9 @@
 .table-container table {
   width: auto; /* Allow the table to adjust its width based on content */
 }
+.table-spacers {
+  visibility: hidden;
+}
 .info-box {
   margin-top: 100px;
   margin-left: 50%;
@@ -91,5 +94,15 @@
   .info-box {
     width: 85%;
     margin-top: 60px;
+  }
+  .icon-img {
+    width: 80px;
+    height: 80px;
+  }
+  .icon-title {
+    font-size: 20px;
+  }
+  .table-spacers {
+    font-size: 10px;
   }
 }
