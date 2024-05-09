@@ -47,27 +47,111 @@
     <div id="mainsection" class="mainsection" style="height: 2400px">
       <!-- CREATE NAV BAR FOR MOBILE -->
       <div id="navBar" class="navBar">
-        <button
-          id="sidebarButton"
-          class="sidebarButton"
-          onclick="showSidebar()"
+        <a
+          href="/"
+          style="
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            text-decoration: none;
+          "
         >
-          Toggle Sidebar
-        </button>
-        <a href="/" class="sidebar-link">Home</a>
-        <a href="/about" class="sidebar-link">About Us</a>
-        <a href="/contact" class="sidebar-link">Contact Us</a>
-        <a href="/benefits" class="sidebar-link">Benefits</a>
+          <div class="navbar-button" style="margin-top: 15vh">
+            <div class="navbar-button-text">Home</div>
+          </div>
+        </a>
+        <a
+          href="/about"
+          style="
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            text-decoration: none;
+          "
+        >
+          <div class="navbar-button">
+            <div class="navbar-button-text">About Us</div>
+          </div>
+        </a>
+        <a
+          href="/services"
+          style="
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            text-decoration: none;
+          "
+        >
+          <div class="navbar-button">
+            <div class="navbar-button-text">Services</div>
+          </div>
+        </a>
+        <a
+          href="/benefits"
+          style="
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            text-decoration: none;
+          "
+        >
+          <div class="navbar-button">
+            <div class="navbar-button-text">Benefits</div>
+          </div>
+        </a>
+
+        <a
+          href="/contact"
+          style="
+            -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+            text-decoration: none;
+          "
+        >
+          <div class="navbar-button">
+            <div class="navbar-button-text">Contact Us</div>
+          </div>
+        </a>
       </div>
       <div id="navBar2" class="navBar2" onclick="showSidebar()"></div>
 
       <!-- PAGE BANNER -->
-      <img class="homeBanner" src="images/HomeBanner.png" alt="homeBanner" />
-
-      <button id="sidebarButton" class="sidebarButton" onclick="showSidebar()">
-        Toggle Sidebar
-      </button>
-
+      <div>
+        <img
+          class="homeBanner"
+          src="images/HomeBanner.png"
+          alt="homeBanner"
+          style="display: inline-block"
+        />
+        <div>
+          <button
+            id="sidebarButton"
+            class="sidebarButton"
+            onclick="showSidebar()"
+          >
+            <hr
+              style="
+                color: white;
+                width: 60%;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            />
+            <hr
+              style="
+                color: white;
+                width: 60%;
+                top: 25%;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            />
+            <hr
+              style="
+                color: white;
+                width: 60%;
+                position: absolute;
+                top: 1%;
+                left: 50%;
+                transform: translateX(-50%);
+              "
+            />
+          </button>
+        </div>
+      </div>
       <!-- PAGE TITLE -->
       <div class="homeTitle">Empowering Local Businesses to Thrive Online</div>
 

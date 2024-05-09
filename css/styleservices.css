@@ -34,7 +34,7 @@
   margin-left: 50%;
   transform: translateX(-50%);
   color: white;
-  font-family: Arial;
+  font-family: "Montserrat";
   font-size: 30px;
   text-align: center;
   width: 800px;
@@ -52,7 +52,7 @@
 .icon-title {
   color: white;
   font-size: 45px;
-  font-family: Arial;
+  font-family: "Montserrat";
 }
 .serviceBanner {
   display: block;
