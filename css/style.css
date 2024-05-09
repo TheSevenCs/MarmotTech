@@ -52,6 +52,14 @@
   justify-content: center; /* Center horizontally inside the container */
   /* height: 100%; Take the full height of the container */
 }
+.centeringContainer {
+  /* Used for centering elements */
+  display: flex;
+  justify-content: center; /* Center horizontally inside the container */
+  margin-left: auto;
+  margin-right: auto;
+  /* height: 100%; Take the full height of the container */
+}
 
 /* SIDEBAR CLASSES */
 .sidebar {
