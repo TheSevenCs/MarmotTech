@@ -85,7 +85,7 @@
     width: 40%;
   }
   .profileText {
-    font-size: 19px;
+    font-size: 4vw;
   }
   .AU_MainText {
     margin-top: 325px;
@@ -95,5 +95,17 @@
   }
   .AU_Paragraph {
     line-height: 30px;
+    font-size: 17px;
+  }
+}
+
+@media (max-width: 320px) {
+  .AU_Paragraph {
+    font-size: 15px;
+  }
+
+  .AU_MainText {
+    margin-top: 200px;
+    font-size: 15px;
   }
 }

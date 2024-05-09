@@ -292,4 +292,8 @@ html {
   .homeFrame1Text {
     font-size: 15px;
   }
+  body,
+  html {
+    background-size: 90% auto;
+  }
 }

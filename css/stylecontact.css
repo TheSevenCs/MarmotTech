@@ -39,7 +39,7 @@
 
 .email-text {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 3vh;
   font-size: 150%;
   color: white;
   font-family: "Montserrat";
@@ -62,13 +62,21 @@
   #contact-mainsection {
     height: 1100px;
   }
+  .email-text {
+    font-size: 3vw;
+  }
 }
 
 @media (max-width: 425px) {
   .email-text {
-    font-size: 15px;
+    font-size: 3vw;
+    padding-top: 0;
+    margin-top: 3vh;
   }
   #contact-mainsection {
     height: 800px;
+  }
+  .email-box {
+    height: 5vh;
   }
 }

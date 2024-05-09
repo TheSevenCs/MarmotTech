@@ -102,7 +102,7 @@
 
 @media (max-width: 425px) {
   .homeTitle {
-    font-size: 35px;
+    font-size: 25px;
     padding: 20px;
   }
   .homeFrame1Container {
@@ -113,12 +113,27 @@
     font-size: 15px;
   }
   .homeParagraph {
-    font-size: 21px;
+    font-size: 15px;
     padding: 20px;
     margin-top: 40px;
     line-height: 35px;
   }
   #home-mainsection {
     height: 1600px;
+  }
+}
+@media (max-width: 320px) {
+  .homeTitle {
+    font-size: 13px;
+  }
+  .homeFrame1Text {
+    font-size: 13px;
+  }
+  .homeParagraph {
+    font-size: 13px;
+    line-height: 25px;
+  }
+  #home-mainsection {
+    height: 1100px;
   }
 }
