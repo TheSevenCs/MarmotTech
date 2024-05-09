@@ -119,3 +119,15 @@
     font-size: 20px;
   }
 }
+
+@media (max-width: 375px) {
+  .bannerText {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 320px) {
+  .bannerText {
+    font-size: 7px;
+  }
+}
