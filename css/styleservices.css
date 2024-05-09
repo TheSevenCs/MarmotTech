@@ -64,10 +64,15 @@
   width: 90%;
 }
 .icon-table {
+  margin: 0 auto;
   margin-bottom: 20px;
   margin-top: 45px;
   max-width: 67.8vw;
 }
+#services-mainsection {
+  height: 2000px;
+}
+
 @media (max-width: 767px) {
   .info-box {
     width: 85%;
@@ -86,7 +91,7 @@
   }
 
   .info-box {
-    width: 85%;
+    width: 80%;
     margin-top: 60px;
   }
   .icon-img {
@@ -106,6 +111,9 @@
   .info-box {
     font-size: 20px;
   }
+  #services-mainsection {
+    height: 1150px;
+  }
 }
 @media (max-width: 320px) {
   .icon-img {
@@ -124,5 +132,8 @@
   }
   .info-box {
     font-size: 15px;
+  }
+  #services-mainsection {
+    height: 1000px;
   }
 }
