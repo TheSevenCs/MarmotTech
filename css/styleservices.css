@@ -70,9 +70,6 @@
   max-width: 67.8vw;
 }
 @media (max-width: 767px) {
-  .table-container {
-    width: 90%;
-  }
   .info-box {
     width: 85%;
     margin-top: 60px;
@@ -88,9 +85,7 @@
     margin-top: 40px;
     font-size: 30px;
   }
-  .table-container {
-    width: 90%;
-  }
+
   .info-box {
     width: 85%;
     margin-top: 60px;
@@ -98,11 +93,37 @@
   .icon-img {
     width: 80px;
     height: 80px;
+    border-radius: 23px;
+  }
+  .icon {
+    border-radius: 23px;
   }
   .icon-title {
     font-size: 20px;
   }
   .table-spacers {
-    font-size: 10px;
+    font-size: 4px;
+  }
+  .info-box {
+    font-size: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .icon-img {
+    width: 60px;
+    height: 60px;
+    border-radius: 19px;
+  }
+  .icon {
+    border-radius: 19px;
+  }
+  .icon-title {
+    font-size: 16px;
+  }
+  .table-spacers {
+    font-size: 4px;
+  }
+  .info-box {
+    font-size: 15px;
   }
 }
