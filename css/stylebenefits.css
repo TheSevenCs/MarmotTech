@@ -54,7 +54,7 @@
   font-size: 23px; /* Text size */
   font-family: "Montserrat", sans-serif; /* Typography */
 }
-#benefitsMainSection {
+#benefits-MainSection {
   height: 1750px;
 }
 #benefitsTitle {
@@ -86,8 +86,8 @@
   .bannerText {
     font-size: 17px;
   }
-  #benefitsMainSection {
-    height: 1450px;
+  #benefits-MainSection {
+    height: 1550px;
   }
 }
 
@@ -108,7 +108,7 @@
   #centeringContainer {
     margin-top: 150px;
   }
-  #benefitsMainSection {
+  #benefits-MainSection {
     height: 1100px;
   }
   #benefitsEndText {

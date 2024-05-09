@@ -45,6 +45,9 @@
   font-family: "Montserrat";
   vertical-align: middle;
 }
+#contact-mainsection {
+  height: 1200px;
+}
 
 @media (max-width: 767px) {
   .ContactBanner {
@@ -56,10 +59,16 @@
     margin-right: auto;
     width: 85%;
   }
+  #contact-mainsection {
+    height: 1100px;
+  }
 }
 
 @media (max-width: 425px) {
   .email-text {
     font-size: 15px;
+  }
+  #contact-mainsection {
+    height: 800px;
   }
 }
