@@ -10,6 +10,9 @@
   </head>
 
   <body>
+    <!-- JS DEFINITIONS -->
+    <script src="sidebar.js"></script>
+
     <!-- CREATE SIDEBARS -->
     <div id="sidebar" class="sidebar">
       <a href="/" class="sidebar-link">Home</a>
@@ -88,6 +91,45 @@
       </div>
       <div id="navBar2" class="navBar2" onclick="showSidebar()"></div>
 
+      <div>
+        <button
+          id="sidebarButton"
+          class="sidebarButton"
+          style="position: absolute"
+          onclick="showSidebar()"
+        >
+          <hr
+            style="
+              color: white;
+              width: 60%;
+              position: absolute;
+              margin-top: 0%;
+              left: 50%;
+              transform: translateX(-50%);
+            "
+          />
+          <hr
+            style="
+              color: white;
+              width: 60%;
+              margin-top: -25%;
+              position: absolute;
+              left: 50%;
+              transform: translateX(-50%);
+            "
+          />
+          <hr
+            style="
+              color: white;
+              width: 60%;
+              position: absolute;
+              margin-top: 25%;
+              left: 50%;
+              transform: translateX(-50%);
+            "
+          />
+        </button>
+      </div>
       <!-- TITLE -->
       <div class="title">About Us</div>
 
