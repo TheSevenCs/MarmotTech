@@ -4,13 +4,12 @@
   /* Since containers take up (horizontal) blocks by default, the display layout must be manually set */
   display: inline-block;
   vertical-align: top;
-  width: 250px;
+  width: 28.33%;
   /* left margin must be manually set */
 }
 .benefitsIcon {
   /* AI Generated Icons */
-  width: 200px;
-  height: 342px;
+  width: 80%;
 }
 .benefitsVerticalLine {
   /* Thin, gray, vertical lines used for styling */
@@ -20,6 +19,12 @@
   margin-bottom: 28px;
   background-color: #707070;
   /* chagne color to 707070 */
+}
+#leftBenefit {
+  margin-right: 7.5%;
+}
+#rightBenefit {
+  margin-left: 7.5%;
 }
 .benefitsBannerContainer {
   /* Used to hold the banner image and text inside the image */
@@ -48,4 +53,69 @@
   color: white; /* Text color */
   font-size: 23px; /* Text size */
   font-family: "Montserrat", sans-serif; /* Typography */
+}
+#benefitsMainSection {
+  height: 1750px;
+}
+#benefitsTitle {
+  font-size: 50px;
+}
+#benefitsRibbon {
+  width: 100%;
+  height: 160px;
+  position: absolute;
+  top: 180px;
+  margin-bottom: 20px;
+}
+#centeringContainer {
+  margin-top: 200px;
+  width: 90%;
+}
+#benefitsEndText {
+  margin-top: 40px;
+  font-size: 30px;
+}
+#benefitsEndText2 {
+  font-size: 30px;
+}
+
+@media (max-width: 767px) {
+  .centeringContainer {
+    width: 90%;
+  }
+  .bannerText {
+    font-size: 17px;
+  }
+  #benefitsMainSection {
+    height: 1450px;
+  }
+}
+
+@media (max-width: 425px) {
+  .benefitsVerticalLine {
+    height: 60px;
+  }
+  .bannerText {
+    font-size: 11px;
+  }
+  #benefitsTitle {
+    font-size: 30px;
+  }
+  #benefitsRibbon {
+    top: 140px;
+    height: 100px;
+  }
+  #centeringContainer {
+    margin-top: 150px;
+  }
+  #benefitsMainSection {
+    height: 1100px;
+  }
+  #benefitsEndText {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+  #benefitsEndText2 {
+    font-size: 20px;
+  }
 }
