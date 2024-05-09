@@ -52,7 +52,7 @@
 
 @media (max-device-width: 767px) {
   #about-MainSection {
-    height: 1500px;
+    height: 1750px;
   }
   .AU_Banner {
     width: 85%;
@@ -76,7 +76,7 @@
 
 @media (max-width: 425px) {
   #about-MainSection {
-    height: 1500px;
+    height: 1300px;
   }
   .AU_Banner {
     width: 85%;
