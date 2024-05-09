@@ -142,8 +142,6 @@
   position: absolute; /* This is required for top and left to work */
   top: 0;
   left: 16.1vw;
-  background-image: radial-gradient(circle, #2e343e, #171717);
-  background-position: center;
   display: block;
   margin: auto;
   overflow-y: hidden;
@@ -181,10 +179,10 @@
 }
 body,
 html {
+  background-image: radial-gradient(circle, #2e343e, #171717);
+  background-position: center;
   /* background-image: url("../images/Background.png"); */
-  background-size: cover; /* This makes sure the image covers the entire background */
-  background-position: center top 0; /* Corrected background position */
-  background: #ffffff;
+  background-size: 70% auto; /* This makes sure the image covers the entire background */
   scrollbar-width: none;
   -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
 }

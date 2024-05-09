@@ -20,6 +20,9 @@
   text-align: center;
   width: 100%;
 }
+#about-MainSection {
+  height: 2000px;
+}
 .AU_MainText {
   font-family: "Montserrat";
   color: white;
@@ -28,8 +31,8 @@
   margin: auto;
   padding-top: 0px;
   padding-bottom: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: auto;
+  padding-right: auto;
   line-height: 51px;
   border: 5px solid #707070;
   width: 70%;
@@ -47,7 +50,10 @@
   max-width: 900px;
 }
 
-@media (max-width: 767px) {
+@media (max-device-width: 767px) {
+  #about-MainSection {
+    height: 1500px;
+  }
   .AU_Banner {
     width: 85%;
   }
@@ -69,6 +75,9 @@
 }
 
 @media (max-width: 425px) {
+  #about-MainSection {
+    height: 1500px;
+  }
   .AU_Banner {
     width: 85%;
   }
