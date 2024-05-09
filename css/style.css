@@ -241,6 +241,7 @@ html {
 @media (max-width: 425px) {
   .title {
     margin-top: 60px;
+    font-size: 35px;
   }
   .paragraph {
     padding: 20px;
